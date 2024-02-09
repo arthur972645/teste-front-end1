@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9dd3df;
+}
+
+.conteudo{
+    background-color: #c9d1d3;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+    @media screen {
+        
+    }
+}
+.caixaTitulo{
+   display: flex;
+   border-radius: 15px;
+   width: 250px;
+   margin-left: 25px;
+   margin-top: 20px;
+   justify-content: center;
+   align-items: center;
+   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 40px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#peso{
+    border-radius: 100px;
+    width: 290px;
+    height: 30px;
+    display: flex;
+    border: none;
+}
+#altura{
+    border-radius: 100px;
+    width: 290px;
+    height: 30px;
+    display: flex;
+    border: none;
+}
+.botao1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+#botao{
+    border-radius: 100px;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(236, 236, 236);
+}
